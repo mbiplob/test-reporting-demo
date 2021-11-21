@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    
+    <listeners>
+        <listener class-name="com.graviton.report.TestListener"></listener>
+    </listeners>
+    <test name="Nopackage" >
+        <classes>
+            <class name="com.graviton.tests.ReportingTest" />
+        </classes>
+    </test>
+    <test name="Anotehr test" >
+        <classes>
+            <class name="com.graviton.tests.ReportingTest" />
+        </classes>
+    </test>
+
+</suite>
